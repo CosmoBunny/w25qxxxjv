@@ -6,7 +6,7 @@ description = "A minimal yet powerful Rust driver for Winbond W25QxxJV SPI flash
 license = "MIT"
 repository = "https://github.com/CosmoBunny/w25qxxxjv"
 keywords = [
-  "SPI memory",
+  "SPI",
   "w25q",
   "winbond",
   "no-std",
