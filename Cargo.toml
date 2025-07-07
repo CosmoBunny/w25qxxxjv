@@ -1,6 +1,6 @@
 [package]
 name = "w25qxxxjv"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "A minimal yet powerful Rust driver for Winbond W25QxxJV SPI flash chips, supporting standard, fast, dual, and quad SPI modes, dynamic erase sizing, sector protection, and page-aligned programming. Designed with embedded-hal and 24-bit addressing in mind—great for Q32, Q64, Q128 devices."
 license = "MIT"
@@ -12,6 +12,10 @@ keywords = [
   "no-std",
   "embedded-hal",
 ]
+
+[features]
+default = ["manual_delay"]
+manual_delay = []
 
 [dependencies]
 embedded-hal = "1.0.0"
